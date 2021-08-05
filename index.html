@@ -10,11 +10,12 @@
 </head>
 <body>
     <main>
-        <h1>Cifrador Cesar.</h1>
+        <h1>Input job description</h1>
         <form id="cifrador" autocomplete="off">
-            <input id="input-original" spellcheck="false" placeholder="Ingrese el texto" type="text" name="text">
+            <input id="input-original" spellcheck="false" placeholder="Input text here" type="text" name="text">
         </form>
-        <div id="resultado"></div>
+        <div id="score"></div>
+        <div id="suggestions"></div>
         <div class="rango">
             <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
             <output>10</output>
